@@ -1,29 +1,34 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Document</title>
+    <title>Login</title>
     <link rel="stylesheet" href="./all.css">
-    <link rel="stylesheet" href="./sytle.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <div class="container">
-        <div class="caption">
-            <h1>Welcome</h1>
-        </div>
-        <div class="avatar">
-            <img src="./avatar.jpg" alt="">
-        </div>
-        <div class="input-box">
-            <input type="text" placeholder="Username">
-            <input type="text" placeholder="Password">
-            <input type="button" value="Login">
-        </div>
-        <div class="options">
-            <ul>
-                <li>Forgot <a href="">Username / Password?</a></li>
-                <li>Don't have an account? <a href="">Sign up</a></li>
-            </ul>
-            <div>
+        <div class="background-image"></div>
+        <div class="box">
+            <div class="box-caption">
+                <img src="./logo.png" alt="">
+                <h2>LOG IN</h2>
+            </div>
+            <div class="box-input">
+                <div>
+                    <i class="fa fa-user user-icon"></i>
+                    <input type="text" placeholder="Username">
+                </div>
+                <div>
+                    <i class="fa fa-lock user-icon"></i>
+                    <input type="text" placeholder="Password">
+                </div>
+                <div class="box-checkbox">
+                    <input type="checkbox">
+                    <label for="">Remember me</label>
+                </div>
+                <input type="button" value="Login">
+            </div>
+            <a href="">Forgot Password?</a>
         </div>
     </div>
 </body>
